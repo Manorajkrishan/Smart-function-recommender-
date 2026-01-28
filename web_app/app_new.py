@@ -11,6 +11,7 @@ from typing import List, Optional
 import sys
 import os
 import time
+import logging
 from contextlib import asynccontextmanager
 
 # Add parent directory to path to import smart_func
