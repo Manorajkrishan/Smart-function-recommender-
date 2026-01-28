@@ -1,0 +1,5002 @@
+[
+  {
+    "query": "help me concatenate combine",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "flip str reverse",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get maximum",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "csv read extract",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse csv line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "merge dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "concatenate map dict",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "sum list total",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "smallest find list",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "create string",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "number currency",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function merge_dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "merge dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "find smallest number",
+    "expected_function": "find_min",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "sorts a sequence in asc order and get rid ofs duplicates",
+    "expected_function": "sort_asc_unique",
+    "category": "description_variation"
+  },
+  {
+    "query": "sum list numbers",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "expand nested list",
+    "expected_function": "flatten_list",
+    "category": "edge_case"
+  },
+  {
+    "query": "search list",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function format_currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "function parse_csv_line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "find min",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "python function for transform flatten",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "I need to join combine",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "unique duplicate ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "count words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "find minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform array dictionary",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "I need to validate validate",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "find list",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "count words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "parse text read",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "help me concatenate merge",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "I need to filter even",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "function remove_duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "filter even numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "function merge_dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "search sequence",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "min numbers find",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list transform convert",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "invert str reverse",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "group list items",
+    "expected_function": "group_by_key",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function count_words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "get sort",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function sort_unique_asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "group bys a sequence of dictionaries by a specific key",
+    "expected_function": "group_by_key",
+    "category": "description_variation"
+  },
+  {
+    "query": "deduplicate list items",
+    "expected_function": "remove_duplicates",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function sum_list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform flatten nested",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "number of words in string",
+    "expected_function": "count_words",
+    "category": "edge_case"
+  },
+  {
+    "query": "arrange unique",
+    "expected_function": "sort_desc_unique",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "list unique numbers",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function count_words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "flip string",
+    "expected_function": "reverse_string",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "reverse string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "flatten transform list",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "I need to order ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "search list",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "min smallest find",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list find",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "reverse string invert",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search sequence",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function filter_even_numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "extract sequence list",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "help me merge dictionary",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "dictionary join",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform a nested",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "transform sequence organize",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "extract str",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "help me check email",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "count text",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "calculate string count",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "format currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "sort sequence duplicate",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "flattens a nested list into a single list",
+    "expected_function": "flatten_list",
+    "category": "description"
+  },
+  {
+    "query": "combine dict",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function reverse_string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "search list numbers",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get only array",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "how to rank ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "function merge_dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "backwards str flip",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "rank list",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform list with key",
+    "expected_function": "group_by_key",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function count_words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "get rid of list",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function validate_email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "invert string",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "select array even",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function find_minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "get unique by drop",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "order sequence",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "get min by search",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "drop array",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "merge dictionary",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "find list",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform list key",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "organize list remove",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "styles a number as dollar",
+    "expected_function": "format_currency",
+    "category": "description_variation"
+  },
+  {
+    "query": "string read parse",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "numbers even filter",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "numbers filter",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function find_minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform list",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "verify check validate",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse csv line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "function that compute words",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "merge key-value pair join",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "group organize dictionary",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "count words in text",
+    "expected_function": "count_words",
+    "category": "edge_case"
+  },
+  {
+    "query": "sort array",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "code to combine dictionary",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "sum list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "function count_words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "reverse string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "number format currency",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find list maximum",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "I need to select numbers",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "max list find",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform array",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "reverses a str",
+    "expected_function": "reverse_string",
+    "category": "description_variation"
+  },
+  {
+    "query": "calculate string text",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "find calculate",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "deduplicate list remove",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform array",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "make select",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "validate string",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "string words",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "I need to search find",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "organize list by key",
+    "expected_function": "group_by_key",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "string text",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get csv by extract",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "compute maximum",
+    "expected_function": "find_max",
+    "category": "edge_case"
+  },
+  {
+    "query": "get key by transform",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "find find",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "I need to search maximum",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "I need to arrange sort",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "invert reverse text",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function find_maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "string extract parse",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function parse_csv_line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "calculate array sum",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get format",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function merge_dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "format as money",
+    "expected_function": "format_currency",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "csv parse read",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "unwinds a nested list into a single list",
+    "expected_function": "flatten_list",
+    "category": "description_variation"
+  },
+  {
+    "query": "arrange collection list",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "calculate total sum",
+    "expected_function": "sum_list",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function sum_list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "help me transform group",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "get even numbers",
+    "expected_function": "filter_even",
+    "category": "edge_case"
+  },
+  {
+    "query": "remove list",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search array",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get rid ofs duplicates elements from a array while preserving order",
+    "expected_function": "remove_duplicates",
+    "category": "description_variation"
+  },
+  {
+    "query": "how to search find",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "create string",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "remove duplicate items",
+    "expected_function": "remove_duplicates",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "help me transform key",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "create smallest",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "backwards text",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "I need to sort ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "read csv parse",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse text",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "make list",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "deduplicate unique duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get only a even",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "flatten convert nested",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "flatten nested array",
+    "expected_function": "flatten_list",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "I need to join combine",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "select even numbers",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "code to formatting currency",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "function parse_csv_line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "sum list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "maximum numbers max",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how to remove remove",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "string email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function find_minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "function flatten_list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "get join",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "remove duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "function filter_even_numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "format number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "extract csv values",
+    "expected_function": "parse_csv_line",
+    "category": "edge_case"
+  },
+  {
+    "query": "sort unique asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "test email format",
+    "expected_function": "validate_email",
+    "category": "edge_case"
+  },
+  {
+    "query": "decode a parse",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "test a validate",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "get duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "unite map combine",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "words text",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list convert flatten",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find group",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "function sort_unique_desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "flatten convert transform",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search array min",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "python function for validate check",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "calculate string text",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "counts the number of words in a string",
+    "expected_function": "count_words",
+    "category": "description"
+  },
+  {
+    "query": "sum up numbers",
+    "expected_function": "sum_list",
+    "category": "edge_case"
+  },
+  {
+    "query": "combine map",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function format_currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "function format_currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "code to get sum",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "merge join",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "removes duplicate elements from a list while preserving order",
+    "expected_function": "remove_duplicates",
+    "category": "description"
+  },
+  {
+    "query": "help me parse read",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "string verify email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search list",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function that transform flatten",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "flatten list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "combine two dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "edge_case"
+  },
+  {
+    "query": "create string",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "function reverse_string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "function format_currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "calculate str",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "format number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get text",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "deduplicate list",
+    "expected_function": "remove_duplicates",
+    "category": "edge_case"
+  },
+  {
+    "query": "determine str words",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "numbers unique list",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function flatten_list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "dict merge join",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "remove duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform list organize",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function remove_duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "remove unique list",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get check by check",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "function merge_dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "search a max",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "reverse string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "I need to formatting money",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "code to drop remove",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "filter even numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "count text",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "minimum numbers smallest",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "find maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "find email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "style number money",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "make money",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "I need to select numbers",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "check email validate",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "decode str",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "list add",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function find_minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "rank sequence numbers",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "help me get words",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "python function for transform list",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "currency number format",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get sequence sum",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform list nested",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "sort unique desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "combine two dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "make csv",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function count_words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "combine object merge",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function that filter even",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "sort unique desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "unique numbers descending",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "largest max",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "currency formatting",
+    "expected_function": "format_currency",
+    "category": "edge_case"
+  },
+  {
+    "query": "function sort_unique_desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "invert str",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform array",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function that eliminate remove",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "help me drop remove",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "find minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "how to get words",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "reverses a str",
+    "expected_function": "reverse_string",
+    "category": "description_variation"
+  },
+  {
+    "query": "transform convert list",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function that rank unique",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "join dict",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "currency format number",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "organize group",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make transform",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parses a csv line into a sequence of values",
+    "expected_function": "parse_csv_line",
+    "category": "description_variation"
+  },
+  {
+    "query": "list deduplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "decode string",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function flatten_list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "select list filter",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function remove_duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform a list",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "ascending duplicate unique",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how many words in string",
+    "expected_function": "count_words",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "get the smallest value",
+    "expected_function": "find_min",
+    "category": "edge_case"
+  },
+  {
+    "query": "dict dictionary merge",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function sort_unique_asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "I need to sort unique",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "how to sort sort",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "selects a list to keep only even numbers numbers",
+    "expected_function": "filter_even",
+    "category": "description_variation"
+  },
+  {
+    "query": "find minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "test text check",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "reverses a string",
+    "expected_function": "reverse_string",
+    "category": "description"
+  },
+  {
+    "query": "search list maximum",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "compute sequence",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform list nested",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "drop sequence duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "drop collection duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "filter even numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "words calculate count",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "unpack nested arrays",
+    "expected_function": "flatten_list",
+    "category": "edge_case"
+  },
+  {
+    "query": "organize group key",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search sequence numbers",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "search list largest",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "style number currency",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get rid of sequence unique",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "text string words",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find largest number",
+    "expected_function": "find_max",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "find maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "parse str",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "merge combine",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform array",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "unpack nested list",
+    "expected_function": "flatten_list",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "I need to style format",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "maximum list max",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "get sum by compute",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "function sum_list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "join key-value pair dict",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "text calculate",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "code to arrange sort",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "what is the max",
+    "expected_function": "find_max",
+    "category": "edge_case"
+  },
+  {
+    "query": "organize sequence descending",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "read str string",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "create invert",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "money format",
+    "expected_function": "format_currency",
+    "category": "edge_case"
+  },
+  {
+    "query": "function filter_even_numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "I need to transform dictionary",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "search collection min",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "merge dict",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "extract parse read",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "reverse string backwards",
+    "expected_function": "reverse_string",
+    "category": "edge_case"
+  },
+  {
+    "query": "python function for rank sort",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "format currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "function group_by_key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "words calculate count",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "order sequence",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function find_minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "reads a csv line into a sequence of values",
+    "expected_function": "parse_csv_line",
+    "category": "description_variation"
+  },
+  {
+    "query": "invert string",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "validate text",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function sum_list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "format currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "filter select list",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make string",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "calculate a total",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "text string invert",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "drop list",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "search sequence",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "create parse",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list duplicate",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find min minimum",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "flip a string",
+    "expected_function": "reverse_string",
+    "category": "edge_case"
+  },
+  {
+    "query": "how to transform dictionary",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "python function for check check",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "remove duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "dictionary transform group",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "money currency format",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "what is the min",
+    "expected_function": "find_min",
+    "category": "edge_case"
+  },
+  {
+    "query": "function validate_email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "largest find maximum",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list numbers",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search sequence",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "list find numbers",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "reverse string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "count words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform collection",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "organize array duplicate",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "help me calculate sum",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "function find_maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "eliminate duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "get unique values",
+    "expected_function": "remove_duplicates",
+    "category": "edge_case"
+  },
+  {
+    "query": "sum list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "function sort_unique_desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "formattings a number as price",
+    "expected_function": "format_currency",
+    "category": "description_variation"
+  },
+  {
+    "query": "transform list nested",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "key organize",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "validates if a string is a valid email address",
+    "expected_function": "validate_email",
+    "category": "description"
+  },
+  {
+    "query": "code to arrange sort",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "gets the max value in a collection",
+    "expected_function": "find_max",
+    "category": "description_variation"
+  },
+  {
+    "query": "get sequence",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "extract list",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "parse csv line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "check if email is valid",
+    "expected_function": "validate_email",
+    "category": "edge_case"
+  },
+  {
+    "query": "unite dictionary",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "remove duplicate descending",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "find parse",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "get format",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "function sort_unique_asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "arrange list",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "search array",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "sum up values",
+    "expected_function": "sum_list",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function that validate check",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "organize a sort",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "sorts a sequence in largest to smallest order and drops repeateds",
+    "expected_function": "sort_desc_unique",
+    "category": "description_variation"
+  },
+  {
+    "query": "transform array",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "test email validation",
+    "expected_function": "validate_email",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "help me extract csv",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "help me filter numbers",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "create remove",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sum numbers",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "largest maximum max",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform collection flatten",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "decode string",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "python function for invert text",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "numbers duplicate",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "validate str check",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "invert string text",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function validate_email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform nested list",
+    "expected_function": "flatten_list",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "list sort ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function sort_unique_desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "function group_by_key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "join combine dict",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "extract collection",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "flip str",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get rid of list remove",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "flip text",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "remove sort descending",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform organize dictionary",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse csv line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "count text calculate",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get even numbers only",
+    "expected_function": "filter_even",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "invert string",
+    "expected_function": "reverse_string",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "concatenates two dictionaries, with values from dict2 overriding dict1",
+    "expected_function": "merge_dicts",
+    "category": "description_variation"
+  },
+  {
+    "query": "function format_currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "list even",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sorts a list in descending order and removes duplicates",
+    "expected_function": "sort_desc_unique",
+    "category": "description"
+  },
+  {
+    "query": "combine object dict",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function group_by_key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "ascending sort numbers",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search list",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "highest value in list",
+    "expected_function": "find_max",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "flip str",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "arrange list duplicate",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "filter even numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "sort descending and remove duplicates",
+    "expected_function": "sort_desc_unique",
+    "category": "edge_case"
+  },
+  {
+    "query": "function parse_csv_line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "format number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform nested list",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "format currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "unique ascending numbers",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "finds the lowest value in a list",
+    "expected_function": "find_min",
+    "category": "description_variation"
+  },
+  {
+    "query": "currency number format",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "delete collection",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "largest find max",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "numbers list",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how to extract csv",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "duplicate ascending sort",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "formatting number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform sequence flatten",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function group_by_key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "python function for search maximum",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "formatting number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "duplicate sort unique",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "verify email address",
+    "expected_function": "validate_email",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "format number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "list even",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function filter_even_numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform list group",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "arranges a array in high to low order and deletes duplicateds",
+    "expected_function": "sort_desc_unique",
+    "category": "description_variation"
+  },
+  {
+    "query": "organize by key",
+    "expected_function": "group_by_key",
+    "category": "edge_case"
+  },
+  {
+    "query": "get invert",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "format number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "test str check",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "python function for parse csv",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "transform collection",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function group_by_key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "extract collection",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "list add",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "format as currency",
+    "expected_function": "format_currency",
+    "category": "edge_case"
+  },
+  {
+    "query": "remove duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "find flatten",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get only sequence",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "search collection list",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "text invert flip",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function find_maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "unite two dicts",
+    "expected_function": "merge_dicts",
+    "category": "edge_case"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "deduplicate duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "determine list",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "duplicate deduplicate remove",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search array minimum",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "select even values",
+    "expected_function": "filter_even",
+    "category": "edge_case"
+  },
+  {
+    "query": "get dictionary by transform",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "calculate words text",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "unique remove deduplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function that merge merge",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "transform collection",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "merge dict objects",
+    "expected_function": "merge_dicts",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "currency format money",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get str",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "order array",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "validate check email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "string text calculate",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "flatten transform nested",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "help me determine total",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "calculate array total",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function sort_unique_asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "python function for sort unique",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "concatenate dictionary",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get descending",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make numbers",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "lowest value in list",
+    "expected_function": "find_min",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "add sum numbers",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "concatenate a combine",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "join dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "edge_case"
+  },
+  {
+    "query": "code to search min",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "transform sequence key",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform array nested",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "read extract",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "merge dict combine",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find select",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "duplicate remove deduplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "compute sequence",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function sum_list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "calculate str words",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "ascending sort list",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform collection",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform sequence key",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "finds the minimum value in a list",
+    "expected_function": "find_min",
+    "category": "description"
+  },
+  {
+    "query": "calculate the minimum",
+    "expected_function": "find_min",
+    "category": "edge_case"
+  },
+  {
+    "query": "code to get words",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "how to remove duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "unique sort",
+    "expected_function": "sort_desc_unique",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "make list",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "I need to transform group",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "python function for parse read",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "python function for validate validate",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "invert a text",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "function merge_dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "find unique",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "categorize by key",
+    "expected_function": "group_by_key",
+    "category": "edge_case"
+  },
+  {
+    "query": "search fors the smallest value in a list",
+    "expected_function": "find_min",
+    "category": "description_variation"
+  },
+  {
+    "query": "find maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "list add sum",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search collection",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "sort collection",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "extract csv values",
+    "expected_function": "parse_csv_line",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "I need to formatting format",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "create check",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "unique numbers descending",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort array",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function that get rid of unique",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "function remove_duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "number of words",
+    "expected_function": "count_words",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "transform collection",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "sort unique desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "calculate words",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get transform",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find string",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "code to filter numbers",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "flatten list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "function validate_email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "flatten list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "parse csv extract",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "largest list",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "checks if a string is a valid email address",
+    "expected_function": "validate_email",
+    "category": "description_variation"
+  },
+  {
+    "query": "decode text",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "selects a sequence to keep only even numbers",
+    "expected_function": "filter_even",
+    "category": "description_variation"
+  },
+  {
+    "query": "format currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "merge dictionary",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get rid of list unique",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "style number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "calculate list",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "flatten list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "combine dict merge",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "find maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "delete collection",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "search sequence",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "order array",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "reverse invert",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list unique deduplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function reverse_string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "arrange sequence",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "calculates the sum of all numbers in a list",
+    "expected_function": "sum_list",
+    "category": "description"
+  },
+  {
+    "query": "string invert text",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "numbers even",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list calculate",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "add all numbers",
+    "expected_function": "sum_list",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function reverse_string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "function count_words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "python function for filter even",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "search list max",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "drop array deduplicate",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "parse string",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "test str",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "concatenate a merge",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "python function for filter numbers",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "determine list numbers",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "I need to style money",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "get unique values only",
+    "expected_function": "remove_duplicates",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "numbers even filter",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search array find",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "organize array",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "list flatten convert",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "remove unique",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "flatten list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "code to get string",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "arrange collection",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "sort unique desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "add calculate sum",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function format_currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "get minimum",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "create min",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "determine string",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "order a unique",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "merges two dictionaries, with values from dict2 overriding dict1",
+    "expected_function": "merge_dicts",
+    "category": "description_variation"
+  },
+  {
+    "query": "drop list",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function reverse_string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "function count_words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform group key",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search sequence",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "smallest find numbers",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "string csv",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "python function for merge dictionary",
+    "expected_function": "merge_dicts",
+    "category": "natural_language"
+  },
+  {
+    "query": "validate str",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function validate_email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "list max find",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "min find smallest",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "test string",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function sort_unique_desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "dictionary group transform",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get list",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "parse csv line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "search collection",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "backwards str",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform list convert",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "dict dictionary",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "group organize key",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "flip invert text",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "filter even numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "unite map",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "csv parse extract",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sum list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "search list",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "organize dictionary group",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how to calculate total",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "function find_maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "count words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "sort list unique",
+    "expected_function": "sort_desc_unique",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "sort unique",
+    "expected_function": "sort_desc_unique",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "text count calculate",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "filters a list to keep only even numbers",
+    "expected_function": "filter_even",
+    "category": "description"
+  },
+  {
+    "query": "validate str",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "flatten list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "function sum_list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "remove duplicate unique",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how manys the number of words in a str",
+    "expected_function": "count_words",
+    "category": "description_variation"
+  },
+  {
+    "query": "code to compute calculate",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "function sort_unique_desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "find dictionary",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get merge",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse string",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "create ascending",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "read csv data",
+    "expected_function": "parse_csv_line",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "find validate",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function that arrange unique",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "minimum find smallest",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "invert reverse",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse csv line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "group by key",
+    "expected_function": "group_by_key",
+    "category": "edge_case"
+  },
+  {
+    "query": "calculate list numbers",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get number",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "groups a list of dictionaries by a specific key",
+    "expected_function": "group_by_key",
+    "category": "description"
+  },
+  {
+    "query": "max list find",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "python function for transform nested",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "arrange sequence",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "formatting number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "merge dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "merge dicts",
+    "expected_function": "merge_dicts",
+    "category": "edge_case"
+  },
+  {
+    "query": "reverse text backwards",
+    "expected_function": "reverse_string",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function find_maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "reverse flip text",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function that invert reverse",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "help me compute calculate",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "retrieves the largest value in a array",
+    "expected_function": "find_max",
+    "category": "description_variation"
+  },
+  {
+    "query": "transform convert flatten",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get currency",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "count words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "determines the total of all numbers in a sequence",
+    "expected_function": "sum_list",
+    "category": "description_variation"
+  },
+  {
+    "query": "python function for search find",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "help me search maximum",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "function find_minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "how many words",
+    "expected_function": "count_words",
+    "category": "edge_case"
+  },
+  {
+    "query": "list numbers descending",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "dict combine",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "check string email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "merge dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "get maximum value",
+    "expected_function": "find_max",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "transform a group",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "code to format format",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "function remove_duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "invert flip",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "descending unique numbers",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "filter collection",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function filter_even_numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "create validate",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "ascending numbers sort",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "filter even items",
+    "expected_function": "filter_even",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "check verify",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "code to search minimum",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "help me search minimum",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "get words by calculate",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "flatten list nested",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "delete collection",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "flip reverse",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "orders a list in increasing order and eliminates duplicates",
+    "expected_function": "sort_asc_unique",
+    "category": "description_variation"
+  },
+  {
+    "query": "function find_maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "string verify check",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform list",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "total of list",
+    "expected_function": "sum_list",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "filter even numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "function validate_email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "check email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list add",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "read parse string",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function parse_csv_line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "remove duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "get words by determine",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "organize list",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "join merge dictionary",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "group bys a collection of dictionaries by a specific key",
+    "expected_function": "group_by_key",
+    "category": "description_variation"
+  },
+  {
+    "query": "money currency",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "create flatten",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "sort remove duplicate",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "currency format",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "organize array list",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "flatten list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "get numbers",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "number ofs the number of words in a text",
+    "expected_function": "count_words",
+    "category": "description_variation"
+  },
+  {
+    "query": "create merge",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform list",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "group transform",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get dictionary by transform",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "merges two dictionaries, with values from dict2 overriding dict1",
+    "expected_function": "merge_dicts",
+    "category": "description"
+  },
+  {
+    "query": "merge dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "code to invert string",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "check email format",
+    "expected_function": "validate_email",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function that search minimum",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "find organize",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "filter select",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "extract string",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "descending list",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "format number currency",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "help me search maximum",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "invert str",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get min by search",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "function validate_email",
+    "expected_function": "validate_email",
+    "category": "direct_name"
+  },
+  {
+    "query": "get text",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "rank a unique",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "validate email",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "select array",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "create unique",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "order unique",
+    "expected_function": "sort_desc_unique",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "verify string email",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "count text",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "decode str",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "remove duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "total of list",
+    "expected_function": "sum_list",
+    "category": "edge_case"
+  },
+  {
+    "query": "min find list",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list filter",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "calculate array list",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "find duplicate",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function that sort unique",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "function reverse_string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "how to format currency",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "find filter",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "flatten nested list",
+    "expected_function": "flatten_list",
+    "category": "edge_case"
+  },
+  {
+    "query": "find maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "order list descending unique",
+    "expected_function": "sort_desc_unique",
+    "category": "edge_case"
+  },
+  {
+    "query": "search list largest",
+    "expected_function": "find_max",
+    "category": "action_datatype"
+  },
+  {
+    "query": "order collection",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "parses a csv line into a list of values",
+    "expected_function": "parse_csv_line",
+    "category": "description"
+  },
+  {
+    "query": "search array numbers",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function find_minimum",
+    "expected_function": "find_min",
+    "category": "direct_name"
+  },
+  {
+    "query": "string invert reverse",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform list organize",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "sort sequence remove",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "join dictionaries together",
+    "expected_function": "merge_dicts",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "python function for compute sum",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "I need to formatting money",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "function that invert reverse",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "dictionary join",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "help me format currency",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "sum list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "make string",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "expands a nested list array into a single array",
+    "expected_function": "flatten_list",
+    "category": "description_variation"
+  },
+  {
+    "query": "function filter_even_numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "minimum min list",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "numbers smallest minimum",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function flatten_list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "verify a check",
+    "expected_function": "validate_email",
+    "category": "natural_language"
+  },
+  {
+    "query": "extract sequence select",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "remove duplicate items",
+    "expected_function": "remove_duplicates",
+    "category": "edge_case"
+  },
+  {
+    "query": "how to remove unique",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "test str string",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "count words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "flip text",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "how to organize descending",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "key organize",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get text",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "extract str",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "verify string",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "duplicate list",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "unique remove sort",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search collection",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "get minimum value",
+    "expected_function": "find_min",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "format money number",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "calculate numbers",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function sort_unique_asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "function that flip reverse",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "determine text",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function flatten_list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "format currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "extract csv",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find transform",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find flip",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function filter_even_numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "backwards text invert",
+    "expected_function": "reverse_string",
+    "category": "action_datatype"
+  },
+  {
+    "query": "group dictionary organize",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how to decode parse",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "reverse string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "filter even numbers",
+    "expected_function": "filter_even",
+    "category": "direct_name"
+  },
+  {
+    "query": "verify email address",
+    "expected_function": "validate_email",
+    "category": "edge_case"
+  },
+  {
+    "query": "validates if a string is a valid email address address",
+    "expected_function": "validate_email",
+    "category": "description_variation"
+  },
+  {
+    "query": "function sum_list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform array",
+    "expected_function": "flatten_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "maximum numbers",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function reverse_string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "sort sequence duplicate",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function merge_dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "compute array numbers",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "help me transform nested",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "merge dictionaries",
+    "expected_function": "merge_dicts",
+    "category": "direct_name"
+  },
+  {
+    "query": "categorize by key",
+    "expected_function": "group_by_key",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "get csv by parse",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "determine list sum",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "currency formatting",
+    "expected_function": "format_currency",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "extract collection",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "remove deduplicate list",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "numbers max list",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make max",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "search sequence",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "calculate total",
+    "expected_function": "sum_list",
+    "category": "edge_case"
+  },
+  {
+    "query": "function sort_unique_desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "how to eliminate duplicate",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "smallest minimum numbers",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make list",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "maximum find largest",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "arrange collection",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "eliminate array remove",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "invert text",
+    "expected_function": "reverse_string",
+    "category": "edge_case"
+  },
+  {
+    "query": "sorts a list in ascending order and removes duplicates",
+    "expected_function": "sort_asc_unique",
+    "category": "description"
+  },
+  {
+    "query": "sum list add",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "arrange collection",
+    "expected_function": "sort_asc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "duplicate unique list",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "I need to style money",
+    "expected_function": "format_currency",
+    "category": "natural_language"
+  },
+  {
+    "query": "sort duplicate remove",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique desc",
+    "expected_function": "sort_desc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "extract list",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "money format number",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "reverse invert text",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "list transform convert",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get merge",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "maximum list max",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "format currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "count words in text",
+    "expected_function": "count_words",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "sort ascending unique",
+    "expected_function": "sort_asc_unique",
+    "category": "edge_case"
+  },
+  {
+    "query": "delete duplicates from list",
+    "expected_function": "remove_duplicates",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "validate str",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "calculates the sum of all numbers in a collection",
+    "expected_function": "sum_list",
+    "category": "description_variation"
+  },
+  {
+    "query": "drop array unique",
+    "expected_function": "remove_duplicates",
+    "category": "action_datatype"
+  },
+  {
+    "query": "check text",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "how to reverse reverse",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "get minimum by search",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "formatting number money",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "money format number",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "transform flatten convert",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sum list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "how to search find",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "number money format",
+    "expected_function": "format_currency",
+    "category": "keyword_based"
+  },
+  {
+    "query": "sort unique asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "even filter select",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "python function for flip reverse",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "unique numbers sort",
+    "expected_function": "sort_desc_unique",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "function sort_unique_asc",
+    "expected_function": "sort_asc_unique",
+    "category": "direct_name"
+  },
+  {
+    "query": "find total",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function remove_duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "make calculate",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "code to calculate calculate",
+    "expected_function": "sum_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "function remove_duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "filter even numbers only",
+    "expected_function": "filter_even",
+    "category": "edge_case"
+  },
+  {
+    "query": "decode str parse",
+    "expected_function": "parse_csv_line",
+    "category": "action_datatype"
+  },
+  {
+    "query": "test string",
+    "expected_function": "validate_email",
+    "category": "action_datatype"
+  },
+  {
+    "query": "code to transform flatten",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "python function for compute string",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "find validate",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse csv line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "compute string words",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "remove duplicates",
+    "expected_function": "remove_duplicates",
+    "category": "direct_name"
+  },
+  {
+    "query": "code to invert reverse",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "formatting number",
+    "expected_function": "format_currency",
+    "category": "action_datatype"
+  },
+  {
+    "query": "list remove numbers",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "help me decode parse",
+    "expected_function": "parse_csv_line",
+    "category": "natural_language"
+  },
+  {
+    "query": "function that order sort",
+    "expected_function": "sort_asc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "how to transform list",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "function find_maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "duplicate list deduplicate",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "csv read",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make list",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "concatenate map combine",
+    "expected_function": "merge_dicts",
+    "category": "action_datatype"
+  },
+  {
+    "query": "numbers sum",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how to search find",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "search list",
+    "expected_function": "find_min",
+    "category": "action_datatype"
+  },
+  {
+    "query": "select even values",
+    "expected_function": "filter_even",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "money format",
+    "expected_function": "format_currency",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "filter collection select",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "python function for transform key",
+    "expected_function": "group_by_key",
+    "category": "natural_language"
+  },
+  {
+    "query": "find maximum",
+    "expected_function": "find_max",
+    "category": "direct_name"
+  },
+  {
+    "query": "help me search maximum",
+    "expected_function": "find_max",
+    "category": "natural_language"
+  },
+  {
+    "query": "create calculate",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find the largest number",
+    "expected_function": "find_max",
+    "category": "edge_case"
+  },
+  {
+    "query": "function group_by_key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "extract list filter",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "I need to search minimum",
+    "expected_function": "find_min",
+    "category": "natural_language"
+  },
+  {
+    "query": "function parse_csv_line",
+    "expected_function": "parse_csv_line",
+    "category": "direct_name"
+  },
+  {
+    "query": "arrange ascending remove duplicates",
+    "expected_function": "sort_asc_unique",
+    "category": "edge_case"
+  },
+  {
+    "query": "numbers unique",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "compute string",
+    "expected_function": "count_words",
+    "category": "action_datatype"
+  },
+  {
+    "query": "make check",
+    "expected_function": "validate_email",
+    "category": "keyword_based"
+  },
+  {
+    "query": "python function for arrange sort",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "add all numbers",
+    "expected_function": "sum_list",
+    "category": "edge_case"
+  },
+  {
+    "query": "eliminates duplicate elements from a sequence while preserving order",
+    "expected_function": "remove_duplicates",
+    "category": "description_variation"
+  },
+  {
+    "query": "sum list",
+    "expected_function": "sum_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "transform array",
+    "expected_function": "group_by_key",
+    "category": "action_datatype"
+  },
+  {
+    "query": "string csv read",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "formats a number as currency",
+    "expected_function": "format_currency",
+    "category": "description"
+  },
+  {
+    "query": "get only collection numbers",
+    "expected_function": "filter_even",
+    "category": "action_datatype"
+  },
+  {
+    "query": "make unique",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "reverse string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "function flatten_list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "maximum find",
+    "expected_function": "find_max",
+    "category": "keyword_based"
+  },
+  {
+    "query": "how to rank sort",
+    "expected_function": "sort_desc_unique",
+    "category": "natural_language"
+  },
+  {
+    "query": "count words",
+    "expected_function": "count_words",
+    "category": "direct_name"
+  },
+  {
+    "query": "flip text string",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "calculate count string",
+    "expected_function": "count_words",
+    "category": "keyword_based"
+  },
+  {
+    "query": "remove duplicate",
+    "expected_function": "sort_asc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "parse comma separated",
+    "expected_function": "parse_csv_line",
+    "category": "additional_edge_case"
+  },
+  {
+    "query": "sort array unique",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "python function for flip reverse",
+    "expected_function": "reverse_string",
+    "category": "natural_language"
+  },
+  {
+    "query": "create read",
+    "expected_function": "parse_csv_line",
+    "category": "keyword_based"
+  },
+  {
+    "query": "reverse string",
+    "expected_function": "reverse_string",
+    "category": "direct_name"
+  },
+  {
+    "query": "get numbers by get only",
+    "expected_function": "filter_even",
+    "category": "natural_language"
+  },
+  {
+    "query": "sum numbers add",
+    "expected_function": "sum_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "flatten list transform",
+    "expected_function": "flatten_list",
+    "category": "keyword_based"
+  },
+  {
+    "query": "filter select even",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function that transform nested",
+    "expected_function": "flatten_list",
+    "category": "natural_language"
+  },
+  {
+    "query": "get array add",
+    "expected_function": "sum_list",
+    "category": "action_datatype"
+  },
+  {
+    "query": "function flatten_list",
+    "expected_function": "flatten_list",
+    "category": "direct_name"
+  },
+  {
+    "query": "create select",
+    "expected_function": "filter_even",
+    "category": "keyword_based"
+  },
+  {
+    "query": "help me compute words",
+    "expected_function": "count_words",
+    "category": "natural_language"
+  },
+  {
+    "query": "function format_currency",
+    "expected_function": "format_currency",
+    "category": "direct_name"
+  },
+  {
+    "query": "dictionary join combine",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "create reverse",
+    "expected_function": "reverse_string",
+    "category": "keyword_based"
+  },
+  {
+    "query": "organize list",
+    "expected_function": "sort_desc_unique",
+    "category": "action_datatype"
+  },
+  {
+    "query": "transform organize",
+    "expected_function": "group_by_key",
+    "category": "keyword_based"
+  },
+  {
+    "query": "merge join dict",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  },
+  {
+    "query": "find remove",
+    "expected_function": "sort_desc_unique",
+    "category": "keyword_based"
+  },
+  {
+    "query": "function group_by_key",
+    "expected_function": "group_by_key",
+    "category": "direct_name"
+  },
+  {
+    "query": "duplicate remove unique",
+    "expected_function": "remove_duplicates",
+    "category": "keyword_based"
+  },
+  {
+    "query": "get remove by remove",
+    "expected_function": "remove_duplicates",
+    "category": "natural_language"
+  },
+  {
+    "query": "find minimum",
+    "expected_function": "find_min",
+    "category": "keyword_based"
+  },
+  {
+    "query": "make combine",
+    "expected_function": "merge_dicts",
+    "category": "keyword_based"
+  }
+]

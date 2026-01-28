@@ -1,0 +1,12 @@
+# Smart Function Recommender - Requirements
+# 
+# Basic functionality has no external dependencies.
+# Optional dependencies for future enhancements:
+#
+# spacy>=3.0.0
+# transformers>=4.0.0
+
+# Web interface dependencies (optional)
+# fastapi>=0.100.0
+# uvicorn[standard]>=0.23.0
+# pydantic>=2.0.0

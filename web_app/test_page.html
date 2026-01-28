@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>JavaScript Test</h1>
+    <button onclick="testFunction()">Test Button</button>
+    <div id="result"></div>
+    
+    <script>
+        function testFunction() {
+            document.getElementById('result').innerHTML = 'JavaScript is working!';
+            console.log('Test function called');
+        }
+        
+        // Test the escapeHtml pattern
+        function testEscapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            let escaped = div.innerHTML;
+            // Replace newlines with <br> tags - use simple string replacement
+            while (escaped.indexOf('\n') !== -1) {
+                escaped = escaped.replace('\n', '<br>');
+            }
+            while (escaped.indexOf('\r\n') !== -1) {
+                escaped = escaped.replace('\r\n', '<br>');
+            }
+            while (escaped.indexOf('\r') !== -1) {
+                escaped = escaped.replace('\r', '<br>');
+            }
+            return escaped;
+        }
+        
+        console.log('Test page loaded');
+        console.log('escapeHtml test:', testEscapeHtml('line1\nline2'));
+    </script>
+</body>
+</html>

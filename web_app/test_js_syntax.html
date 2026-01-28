@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Syntax Test</title>
+</head>
+<body>
+    <h1>Testing JavaScript Execution</h1>
+    <div id="output"></div>
+    
+    <script>
+        console.log('=== TEST SCRIPT STARTED ===');
+        
+        // Test the exact pattern from app.py
+        var testEscapeHtml = function(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            let escaped = div.innerHTML;
+            // Replace newlines with <br> tags - use simple string replacement
+            while (escaped.indexOf('\n') !== -1) {
+                escaped = escaped.replace('\n', '<br>');
+            }
+            while (escaped.indexOf('\r\n') !== -1) {
+                escaped = escaped.replace('\r\n', '<br>');
+            }
+            while (escaped.indexOf('\r') !== -1) {
+                escaped = escaped.replace('\r', '<br>');
+            }
+            return escaped;
+        };
+        
+        console.log('escapeHtml function defined');
+        console.log('Test result:', testEscapeHtml('line1\nline2'));
+        console.log('=== TEST SCRIPT END ===');
+        
+        document.getElementById('output').innerHTML = 'JavaScript is working! Check console.';
+    </script>
+</body>
+</html>
